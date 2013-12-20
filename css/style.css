@@ -31,8 +31,53 @@
     font-style: normal;
 }
 
-
-
-
-
 body { font-family: "Roboto Condensed Light", "Helvetica Neue", Helvetica, sans-serif}
+
+#nav, #masthead, #content, #sidebar, #footer {
+    margin: 0 18px;
+}
+
+#masthead {
+    color:#990000;
+}
+
+#container-nav {
+    background:#fff;
+}
+
+#container-header {
+    /*background:#352a38;*/
+    height: 350px;
+    width:100%;
+}
+
+#container-content {
+    padding: 20px 0;
+}
+
+#sidebar-content{
+    padding: 20px 0;
+}
+
+#container-footer {
+    padding: 32px 0;
+    background:#2A0A0A;
+    color:#eee;
+    font-weight:100;
+}
+
+#caption {
+    padding: 5px 0;
+}
+
+#skills{
+    padding: 5px 0;
+}
+
+#skills ul{
+    list-style: none;
+}
+
+img {
+    max-width:100%;
+}
