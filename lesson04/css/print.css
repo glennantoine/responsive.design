@@ -1,0 +1,26 @@
+
+#masthead{
+    color: black;
+}
+
+#container-header{
+    height: auto;
+}
+
+img{
+    width: 2in;
+}
+
+#portfolio{
+    float: left;
+    width: 45%;
+}
+
+#resume{
+    float: right;
+    width: 45%;
+}
+
+#container-footer{
+    clear: both;
+}
