@@ -59,7 +59,7 @@
     p {
         font-size: 1.063em; /* 17px / 16 = 1.063em */
         line-height: 1.25; /* 20px / 16 = 1.25em */
-        margin: .65em 0;
+        margin: .65em 0; /* 1/2 scale -> .65em */
     }
 
     h1 {
