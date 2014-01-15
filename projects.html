@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Software Engineer Online Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio website of Software Engineer Glenn Antoine, based on NodeJS, AngularJS, HTML5, CSS3">
+    <meta name="keywords" content="development, portfolio, resume, cv, curriculum vitae, job, work, career, research, architect, programmer, developer, software engineer, program manager, computer, projects, technologies, applications, programming, evangelist, it, information technology"/>
+    <meta name="author" content="Glenn Antoine">
+
+    <!-- social media tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Glenn_Antoine">
+    <meta name="twitter:title" content="Glenn Antoine">
+    <meta name="twitter:description" content="Portfolio website of Software Engineer Glenn Antoine, based on NodeJS, AngularJS, HTML5, CSS3">
+    <meta name="twitter:creator" content="@Glenn_Antoine">
+    <meta property="og:title" content="Glenn Antoine" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://glennantoine.com" />
+    <meta property="og:description" content="Portfolio website of Software Engineer Glenn Antoine, based on NodeJS, AngularJS, HTML5, CSS3">
+
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="container-header">
+    <!-- Header Content Start-->
+    <header id="masthead">
+        <section class="social-buttons">
+            <button class="btn btn-linkedin btn-circle btn-mini"><i class="icon-linkedin"></i></button>
+            <button class="btn btn-github btn-circle btn-mini"><i class="icon-github-alt"></i></button>
+            <button class="btn btn-google-plus btn-circle btn-mini"><i class="icon-google-plus"></i></button>
+            <button class="btn btn-twitter btn-circle btn-mini"><i class="icon-twitter"></i></button>
+            <button class="btn btn-rss btn-circle btn-mini"><i class="icon-rss-sign"></i></button>
+        </section>
+        <figure id="logo">
+            <img src="./img/logo.png" />
+            <figcaption>
+                <hgroup>
+                    <h1>Glenn Antoine</h1>
+                    <h3>Senior Software Engineer</h3>
+                </hgroup>
+            </figcaption>
+        </figure>
+        <section id="nav">
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="icon-home nav-icon"></i>home</a></li>
+                    <li><a href="#"><i class="icon-folder-close nav-icon"></i>projects</a></li>
+                    <li><a href="#"><i class="icon-edit nav-icon"></i>blog</a></li>
+                    <li><a href="#"><i class="icon-file-text nav-icon"></i>resume</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!-- Header Content End -->
+</div>
+
+<div id="container-content">
+    <article id="content">
+        <!-- Main Content Start-->
+        First of all let me say that I will be updating this page and the project pages that it references on a regular basis. Partly because I want to give some thought/consideration to what I actually place here.
+
+        Here you will find a number of projects that I have either worked on in the past, I am currently developing or simply pet projects that I may be playing around with for different reasons.
+
+        Advisor Illustrator
+        Advisor Illustrator software is the first end-to-end platform for goal-based investment advice that combines analytics and management of the household balance sheet. Leveraging our software enables Brokers and their Advisors to offer comprehensive goal-based investment advice for their clients:
+        * Assessment of a household through a holistic balance sheet approach.
+        * Goal-based asset allocation and advice based on data driven decisions.
+
+        Read More Here…….
+
+        Technical
+
+        For those interested in the technical details of the development of Advisor Illustraitor: Zend Framework 1.x, PHP, MySQL, jQuery. For the report generation as a PDF LiveDocx was used as a fast means of creating the reports and providing the means of allowing Advisors to create new report formats simply by creating the associated Word documents.  Time permitting, additional interest in the project, and other factors such as this, I am considering refactoring the application to leverage Zend Framework 2.0, Doctrine and a Domain Driven Design approach.
+        Github Repository Here
+
+        C# .NET MVC & DateTime Conversions
+        C# .NET MVC Project for the handling of Dates Times, DateTime Conversions based on TimeZone and the storage of DateTime in UTC format. In order to provide end users with the ability to view Dates/Times in their local timezone this project was conceived to provide for the viewing of dates/times in local format while storing all dates/times in UTC format. The basic concept was pretty straight-forward in that the view is the only place in the application that we care about dates/times being in displayed in the users local time based on timezone. On the other hand the server side code should always be working with and storing dates/times in UTC format.
+
+        With the implementation in this project it makes it possible that all date/time conversions are handled in the same place throughout the application thereby minimizing the chance for error and making it much easier to identify potential problems with date/time conversions. Basically, if there is a date/time that is being converted somewhere outside of the model binding or the custom view models this should raise questions. While there are other parts of the application that may have a need for converting the dates/times this implementation should minimize those cases.
+
+        Read More Here…….
+
+        EVS Minder
+        EVS Minder™, is your one stop shop for advanced online (pre) registration and on-site registration. EVS (Event Venue System) Minder™ is powerful intelligence for event planners.
+
+        EVS Minder™ is the only tool for registering your attendees you will ever need. With the tremendous flexibility built into EVS Minder™, it is easy for your attendees to register in advance online and on-site for your events, classes and seminars and easy for you, the event planner, to set up and manage all of the information associated with your event. Even better, EVS Minder™ saves you time and money.
+
+        Technical
+
+        EVS Minder was developed using PHP, PEAR Libraries, HTML, CSS, and Javascript. While the current version represents a major revision over the first couple versions of the software, I am in the process of a complete refactor. I started this process well over a year ago and due to time constraints and other commitments it was put on the back burner. About the time I was turning my attention back to the development of a new version Zend Framework 2.0 was picking up steam. As such I decided since I had waited this long a bit longer would not be a problem. With the release of ZF 2.0 I have began redevelopment of EVS Minder with a focus on Domain Driven Development, and utilizing the latest in web development advances.
+        If you have an interesting in EVS Minder please drop me a note here. While in the development process I would be very interested in what you are looking for in your Event Management Software solution.
+
+        EVS Minder Website & Demos
+        <!-- Main Content End-->
+    </article>
+</div>
+
+<div id="sidebar-content">
+    <section id="sidebar">
+        <!-- Sidebar Content Start-->
+        <section id="caption">
+            You will find that I am very social, and always up for a chat. Or coffee.<br />
+            Or both. You can find me all over the internet:<br />
+            Interested in hiring me? <br />
+            Need to brainstorm on your next project?
+        </section>
+        <section id="skills">
+            <ul class="skills-list">
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>AngularJS</li>
+                <li>NodeJS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>C#</li>
+                <li>ASP.NET</li>
+                <li>MVC 4</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Solr</li>
+            </ul>
+        </section>
+        <!-- Sidebar Content End -->
+    </section>
+</div>
+
+<div id="container-footer">
+    <!-- Footer Content Start-->
+    <footer id="footer">
+        <section class="social-buttons">
+            <button class="btn btn-linkedin btn-circle btn-mini"><i class="icon-linkedin"></i></button>
+            <button class="btn btn-github btn-circle btn-mini"><i class="icon-github-alt"></i></button>
+            <button class="btn btn-google-plus btn-circle btn-mini"><i class="icon-google-plus"></i></button>
+            <button class="btn btn-twitter btn-circle btn-mini"><i class="icon-twitter"></i></button>
+            <button class="btn btn-rss btn-circle btn-mini"><i class="icon-rss-sign"></i></button>
+        </section>
+        <section class="contact-form">
+            <form>
+                <fieldset>
+                    <label>Name:</label><br />
+                    <input type="text"/><br />
+
+                    <label>Email:</label><br />
+                    <input type="email"/><br />
+
+                    <label>Message:</label><br />
+                    <textarea rows="4"></textarea><br />
+
+                    <button name="Submit" type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="copyright">
+            Copyright 2000-2013 by Glenn Antoine. All Rights Reserved.
+        </section>
+    </footer>
+    <!-- Footer Content End -->
+</div>
+</body>
+</html>
