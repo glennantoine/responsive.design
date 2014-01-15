@@ -206,9 +206,9 @@
         IE 7 and below, legacy browser style fixes
     **********************************************/
 
-    .ie .wrapper {
-        *behavior: url("http://rantoine.github.io/js/boxsizing.htc");
-    }
+    /*.ie .wrapper {*/
+        /**behavior: url("http://rantoine.github.io/js/boxsizing.htc");*/
+    /*}*/
 
     /* Clearfix */
 
