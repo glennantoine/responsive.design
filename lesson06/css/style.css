@@ -42,7 +42,6 @@
     Give the #nav, #masthead, #content and #colophon ids the same left & right margin of
     3.3%. This will give a centered page in both the single & column layout
     ***************************************************************************************/
-
     #nav, #masthead,
     #content, #colophon {
         margin: 0 3.3%;
